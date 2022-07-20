@@ -1,0 +1,166 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.container{
+    padding: 30px 100px 0 100px;
+}
+
+/* Hero section styles */
+.section1{
+    height: 90vh;
+    
+}
+.hero-section{
+    background-color: #161616;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.hero-title{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+.hero-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    line-height: 1.3;
+
+}
+.hero-title p{
+    color: #C5C5C5;
+}
+.hero-btn{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0%;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.hero-btn:hover{
+    background-color: #DD0000;
+}
+.hero-banner{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-banner img{
+height: 100%;
+width: 100%;
+}
+
+.section2{
+    display: flex;
+    gap: 25px;
+}
+.nav-bar{
+    background-color: #161616;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.contants{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color: white;
+    width: 200px;
+    height: 45px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    
+}
+li a{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+article{
+    box-shadow: 0px 0px 1px 1px rgb(238, 238, 240);
+    outline: none;
+  }
+.duration-comment{
+    display: flex;
+    gap: 10px;
+}
+.blog{
+    width: 250px;
+ 
+    border-radius: 5px;
+}
+.blog-title{
+    padding: 12px;
+}
+.blog-title p{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+footer{
+    height: 55vh;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.footer-title{
+    color: white;
+}
+hr{
+    border: 1px solid #232323;
+    width: 1000px;
+    margin-bottom: 30px;
+    
+}
+.footer-links{
+    display: flex;
+    gap: 30px;
+    
+}
+.footer-links a{
+    text-decoration: none;
+    color: #B9B9B9;
+}
+.social-links{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+}
